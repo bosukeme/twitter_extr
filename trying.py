@@ -24,8 +24,8 @@ def create_folder_in_bucket(bucket_name, folder_name):
     This function takes bucket name as input, as well as folder name
     and then creates a folder in that bucket
     """
-    aws_access_key_id = 'AKIAXRVYY5EIKUKKLV7G'
-    aws_secret_access_key = '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'
+    aws_access_key_id = '#####################'
+    aws_secret_access_key = '###################'
 
     s3 = boto3.client('s3',
                     aws_access_key_id= aws_access_key_id,
@@ -38,8 +38,8 @@ def upload_file_to_s3(bucket_name, local_file_path, s3_file_path):
     This function takes in a bucket name, local file path and s3 file path
     and uploads the content in the local file path to s3
     """
-    aws_access_key_id = 'AKIAXRVYY5EIKUKKLV7G'
-    aws_secret_access_key = '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'
+    aws_access_key_id = '###################'
+    aws_secret_access_key = '#######################'
     s3 = boto3.resource('s3',
                     aws_access_key_id= aws_access_key_id,
                     aws_secret_access_key=aws_secret_access_key)    
